@@ -5,6 +5,8 @@
 //  Created by Mike Silvers on 10/16/11.
 //  Copyright (c) 2011 IggyCo, Inc. All rights reserved.
 //
+//  http://www.politepix.com/openears/configuring
+//
 
 #import <UIKit/UIKit.h>
 

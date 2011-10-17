@@ -13,24 +13,69 @@
 		274D62E0144BD5BC00E4B93E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 274D62DE144BD5BC00E4B93E /* InfoPlist.strings */; };
 		274D62E2144BD5BC00E4B93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D62E1144BD5BC00E4B93E /* main.m */; };
 		274D62E6144BD5BC00E4B93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D62E5144BD5BC00E4B93E /* AppDelegate.m */; };
-		274D62E9144BD5BC00E4B93E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D62E8144BD5BC00E4B93E /* ViewController.m */; };
+		274D62E9144BD5BC00E4B93E /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 274D62E8144BD5BC00E4B93E /* ViewController.mm */; };
 		274D62EC144BD5BC00E4B93E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 274D62EA144BD5BC00E4B93E /* ViewController.xib */; };
+		274D62FE144BDE7700E4B93E /* cmu07a.dic in Resources */ = {isa = PBXBuildFile; fileRef = 274D62FD144BDE7600E4B93E /* cmu07a.dic */; };
+		274D6308144BDECF00E4B93E /* feat.params in Resources */ = {isa = PBXBuildFile; fileRef = 274D6300144BDECF00E4B93E /* feat.params */; };
+		274D6309144BDECF00E4B93E /* feat.params.bak in Resources */ = {isa = PBXBuildFile; fileRef = 274D6301144BDECF00E4B93E /* feat.params.bak */; };
+		274D630A144BDECF00E4B93E /* mdef in Resources */ = {isa = PBXBuildFile; fileRef = 274D6302144BDECF00E4B93E /* mdef */; };
+		274D630B144BDECF00E4B93E /* means in Resources */ = {isa = PBXBuildFile; fileRef = 274D6303144BDECF00E4B93E /* means */; };
+		274D630C144BDECF00E4B93E /* noisedict in Resources */ = {isa = PBXBuildFile; fileRef = 274D6304144BDECF00E4B93E /* noisedict */; };
+		274D630D144BDECF00E4B93E /* sendump in Resources */ = {isa = PBXBuildFile; fileRef = 274D6305144BDECF00E4B93E /* sendump */; };
+		274D630E144BDECF00E4B93E /* transition_matrices in Resources */ = {isa = PBXBuildFile; fileRef = 274D6306144BDECF00E4B93E /* transition_matrices */; };
+		274D630F144BDECF00E4B93E /* variances in Resources */ = {isa = PBXBuildFile; fileRef = 274D6307144BDECF00E4B93E /* variances */; };
+		274D6312144BDF1600E4B93E /* libOpenEarsLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 274D62FA144BDB6E00E4B93E /* libOpenEarsLibrary.a */; };
+		274D6314144BDF6900E4B93E /* libiconv.2.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 274D6313144BDF6900E4B93E /* libiconv.2.4.0.dylib */; };
+		274D6317144BDF7400E4B93E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274D6315144BDF7400E4B93E /* AudioToolbox.framework */; };
+		274D6318144BDF7400E4B93E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274D6316144BDF7400E4B93E /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274D62F9144BDB6E00E4B93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274D62F2144BDB6D00E4B93E /* OpenEarsLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = OpenEars;
+		};
+		274D6310144BDF0100E4B93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274D62F2144BDB6D00E4B93E /* OpenEarsLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = OpenEars;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		274D62D1144BD5BC00E4B93E /* SayIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		274D62D5144BD5BC00E4B93E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		274D62D7144BD5BC00E4B93E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		274D62D9144BD5BC00E4B93E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		274D62DD144BD5BC00E4B93E /* SayIt-Info.plist */ = {isa = PBXFileReference; path = "SayIt-Info.plist"; sourceTree = "<group>"; };
+		274D62DD144BD5BC00E4B93E /* SayIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SayIt-Info.plist"; sourceTree = "<group>"; };
 		274D62DF144BD5BC00E4B93E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		274D62E1144BD5BC00E4B93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		274D62E3144BD5BC00E4B93E /* SayIt-Prefix.pch */ = {isa = PBXFileReference; path = "SayIt-Prefix.pch"; sourceTree = "<group>"; };
-		274D62E4144BD5BC00E4B93E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		274D62E3144BD5BC00E4B93E /* SayIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SayIt-Prefix.pch"; sourceTree = "<group>"; };
+		274D62E4144BD5BC00E4B93E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		274D62E5144BD5BC00E4B93E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		274D62E7144BD5BC00E4B93E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		274D62E8144BD5BC00E4B93E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		274D62E7144BD5BC00E4B93E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		274D62E8144BD5BC00E4B93E /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		274D62EB144BD5BC00E4B93E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		274D62F2144BDB6D00E4B93E /* OpenEarsLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OpenEarsLibrary.xcodeproj; path = OpenEars/OpenEarsLibrary/OpenEarsLibrary.xcodeproj; sourceTree = "<group>"; };
+		274D62FB144BDDB600E4B93E /* OpenEarsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenEarsConfig.h; path = OpenEars/OpenEarsLibrary/Classes/include/OpenEarsConfig.h; sourceTree = "<group>"; };
+		274D62FC144BDE3100E4B93E /* OpenEarsVoiceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenEarsVoiceConfig.h; path = "OpenEars/CMULibraries/flite-1.4-release/include/OpenEarsVoiceConfig.h"; sourceTree = "<group>"; };
+		274D62FD144BDE7600E4B93E /* cmu07a.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cmu07a.dic; path = "OpenEars/CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic"; sourceTree = "<group>"; };
+		274D6300144BDECF00E4B93E /* feat.params */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feat.params; sourceTree = "<group>"; };
+		274D6301144BDECF00E4B93E /* feat.params.bak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feat.params.bak; sourceTree = "<group>"; };
+		274D6302144BDECF00E4B93E /* mdef */ = {isa = PBXFileReference; lastKnownFileType = file; path = mdef; sourceTree = "<group>"; };
+		274D6303144BDECF00E4B93E /* means */ = {isa = PBXFileReference; lastKnownFileType = file; path = means; sourceTree = "<group>"; };
+		274D6304144BDECF00E4B93E /* noisedict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noisedict; sourceTree = "<group>"; };
+		274D6305144BDECF00E4B93E /* sendump */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendump; sourceTree = "<group>"; };
+		274D6306144BDECF00E4B93E /* transition_matrices */ = {isa = PBXFileReference; lastKnownFileType = file; path = transition_matrices; sourceTree = "<group>"; };
+		274D6307144BDECF00E4B93E /* variances */ = {isa = PBXFileReference; lastKnownFileType = file; path = variances; sourceTree = "<group>"; };
+		274D6313144BDF6900E4B93E /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = usr/lib/libiconv.2.4.0.dylib; sourceTree = SDKROOT; };
+		274D6315144BDF7400E4B93E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		274D6316144BDF7400E4B93E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274D6317144BDF7400E4B93E /* AudioToolbox.framework in Frameworks */,
+				274D6318144BDF7400E4B93E /* AVFoundation.framework in Frameworks */,
+				274D6314144BDF6900E4B93E /* libiconv.2.4.0.dylib in Frameworks */,
+				274D6312144BDF1600E4B93E /* libOpenEarsLibrary.a in Frameworks */,
 				274D62D6144BD5BC00E4B93E /* UIKit.framework in Frameworks */,
 				274D62D8144BD5BC00E4B93E /* Foundation.framework in Frameworks */,
 				274D62DA144BD5BC00E4B93E /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +99,8 @@
 		274D62C6144BD5BC00E4B93E = {
 			isa = PBXGroup;
 			children = (
+				274D62F2144BDB6D00E4B93E /* OpenEarsLibrary.xcodeproj */,
+				274D6319144BE2E100E4B93E /* OpenEars Supporting Files */,
 				274D62DB144BD5BC00E4B93E /* SayIt */,
 				274D62D4144BD5BC00E4B93E /* Frameworks */,
 				274D62D2144BD5BC00E4B93E /* Products */,
@@ -67,6 +118,9 @@
 		274D62D4144BD5BC00E4B93E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				274D6315144BDF7400E4B93E /* AudioToolbox.framework */,
+				274D6316144BDF7400E4B93E /* AVFoundation.framework */,
+				274D6313144BDF6900E4B93E /* libiconv.2.4.0.dylib */,
 				274D62D5144BD5BC00E4B93E /* UIKit.framework */,
 				274D62D7144BD5BC00E4B93E /* Foundation.framework */,
 				274D62D9144BD5BC00E4B93E /* CoreGraphics.framework */,
@@ -80,7 +134,7 @@
 				274D62E4144BD5BC00E4B93E /* AppDelegate.h */,
 				274D62E5144BD5BC00E4B93E /* AppDelegate.m */,
 				274D62E7144BD5BC00E4B93E /* ViewController.h */,
-				274D62E8144BD5BC00E4B93E /* ViewController.m */,
+				274D62E8144BD5BC00E4B93E /* ViewController.mm */,
 				274D62EA144BD5BC00E4B93E /* ViewController.xib */,
 				274D62DC144BD5BC00E4B93E /* Supporting Files */,
 			);
@@ -98,6 +152,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		274D62F3144BDB6D00E4B93E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274D62FA144BDB6E00E4B93E /* libOpenEarsLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274D62FF144BDECF00E4B93E /* hub4wsj_sc_8k */ = {
+			isa = PBXGroup;
+			children = (
+				274D6300144BDECF00E4B93E /* feat.params */,
+				274D6301144BDECF00E4B93E /* feat.params.bak */,
+				274D6302144BDECF00E4B93E /* mdef */,
+				274D6303144BDECF00E4B93E /* means */,
+				274D6304144BDECF00E4B93E /* noisedict */,
+				274D6305144BDECF00E4B93E /* sendump */,
+				274D6306144BDECF00E4B93E /* transition_matrices */,
+				274D6307144BDECF00E4B93E /* variances */,
+			);
+			name = hub4wsj_sc_8k;
+			path = "OpenEars/CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k";
+			sourceTree = "<group>";
+		};
+		274D6319144BE2E100E4B93E /* OpenEars Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274D62FF144BDECF00E4B93E /* hub4wsj_sc_8k */,
+				274D62FD144BDE7600E4B93E /* cmu07a.dic */,
+				274D62FC144BDE3100E4B93E /* OpenEarsVoiceConfig.h */,
+				274D62FB144BDDB600E4B93E /* OpenEarsConfig.h */,
+			);
+			name = "OpenEars Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +201,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				274D6311144BDF0100E4B93E /* PBXTargetDependency */,
 			);
 			name = SayIt;
 			productName = SayIt;
@@ -137,12 +227,28 @@
 			mainGroup = 274D62C6144BD5BC00E4B93E;
 			productRefGroup = 274D62D2144BD5BC00E4B93E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 274D62F3144BDB6D00E4B93E /* Products */;
+					ProjectRef = 274D62F2144BDB6D00E4B93E /* OpenEarsLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				274D62D0144BD5BC00E4B93E /* SayIt */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		274D62FA144BDB6E00E4B93E /* libOpenEarsLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOpenEarsLibrary.a;
+			remoteRef = 274D62F9144BDB6E00E4B93E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		274D62CF144BD5BC00E4B93E /* Resources */ = {
@@ -151,6 +257,15 @@
 			files = (
 				274D62E0144BD5BC00E4B93E /* InfoPlist.strings in Resources */,
 				274D62EC144BD5BC00E4B93E /* ViewController.xib in Resources */,
+				274D62FE144BDE7700E4B93E /* cmu07a.dic in Resources */,
+				274D6308144BDECF00E4B93E /* feat.params in Resources */,
+				274D6309144BDECF00E4B93E /* feat.params.bak in Resources */,
+				274D630A144BDECF00E4B93E /* mdef in Resources */,
+				274D630B144BDECF00E4B93E /* means in Resources */,
+				274D630C144BDECF00E4B93E /* noisedict in Resources */,
+				274D630D144BDECF00E4B93E /* sendump in Resources */,
+				274D630E144BDECF00E4B93E /* transition_matrices in Resources */,
+				274D630F144BDECF00E4B93E /* variances in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,11 +278,19 @@
 			files = (
 				274D62E2144BD5BC00E4B93E /* main.m in Sources */,
 				274D62E6144BD5BC00E4B93E /* AppDelegate.m in Sources */,
-				274D62E9144BD5BC00E4B93E /* ViewController.m in Sources */,
+				274D62E9144BD5BC00E4B93E /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274D6311144BDF0100E4B93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenEars;
+			targetProxy = 274D6310144BDF0100E4B93E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		274D62DE144BD5BC00E4B93E /* InfoPlist.strings */ = {
@@ -192,7 +315,7 @@
 		274D62ED144BD5BC00E4B93E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -209,6 +332,12 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"OpenEars/CMULibraries/pocketsphinx-0.6.1/include",
+					"OpenEars/CMULibraries/flite-1.4-release/include",
+					"OpenEars/CMULibraries/sphinxbase-0.6.1/include",
+					OpenEars/OpenEarsLibrary/Classes/include,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
@@ -217,7 +346,7 @@
 		274D62EE144BD5BC00E4B93E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -227,6 +356,12 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"OpenEars/CMULibraries/pocketsphinx-0.6.1/include",
+					"OpenEars/CMULibraries/flite-1.4-release/include",
+					"OpenEars/CMULibraries/sphinxbase-0.6.1/include",
+					OpenEars/OpenEarsLibrary/Classes/include,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -275,6 +410,7 @@
 				274D62F1144BD5BC00E4B93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
